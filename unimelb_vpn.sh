@@ -1,4 +1,5 @@
 #!/bin/bash
+# Yefta Sutanto - hello@yefta.com (c) 2019
 
 # Replace <username> and <password> with your Unimelb username and password
 USERNAME=<username>
