@@ -10,5 +10,5 @@ if (/opt/cisco/anyconnect/bin/vpn status | grep -q Connected)
 then
     /opt/cisco/anyconnect/bin/vpn disconnect
 else
-    printf "$USERNAME\n$PASSWORD" | /opt/cisco/anyconnect/bin/vpn -s connect $HOST
+    printf "$USERNAME\n$PASSWORD\ny" | /opt/cisco/anyconnect/bin/vpn -s connect $HOST
 fi
